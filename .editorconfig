@@ -1,0 +1,10 @@
+﻿[*.cs]
+
+# IDE0055: Fix formatting
+dotnet_diagnostic.IDE0055.severity = silent
+
+# CS0649: Field 'ClearArray<T>.done' is never assigned to, and will always have its default value null
+dotnet_diagnostic.CS0649.severity = none
+
+[*.{cs,vb}]
+indent_style=tab

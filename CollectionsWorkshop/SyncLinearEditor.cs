@@ -1,8 +1,5 @@
 ﻿using System;
-using BaseX;
 using FrooxEngine;
-using FrooxEngine.UIX;
-using CodeX;
 
 namespace CollectionsWorkshop
 {
@@ -16,6 +13,7 @@ namespace CollectionsWorkshop
 			if (SyncLinear != null && !SyncLinear.IsDisposed)
 			{
 				linear.Changed += Colours_Changed;
+				SyncLinear.Changed += Colours_Changed;
 			}
 			base.OnAttach();
 		}

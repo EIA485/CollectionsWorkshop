@@ -44,9 +44,27 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LogiX\AppendElement.cs" />
+    <Compile Include="LogiX\RemoveMultiple.cs" />
+    <Compile Include="LogiX\RemoveSingle.cs" />
+    <Compile Include="LogiX\WriteElement.cs" />
+    <Compile Include="LogiX\InsertElement.cs" />
+    <Compile Include="LogiX\ForEach.cs" />
+    <Compile Include="LogiX\SetArraySize.cs" />
+    <Compile Include="LogiX\DeltaSize.cs" />
+    <Compile Include="LogiX\ClearArray.cs" />
+    <Compile Include="LogiX\ContainsElement.cs" />
+    <Compile Include="LogiX\IndexOfElement.cs" />
+    <Compile Include="LogiX\GetElement.cs" />
+    <Compile Include="LogiX\NumberOfElements.cs" />
     <Compile Include="SyncLinearEditor.cs" />
     <Compile Include="SyncLinearKey.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
